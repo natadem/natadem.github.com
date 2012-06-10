@@ -8,7 +8,7 @@ title: Обо мне
 
 <div>
 <a href="/images/me.jpg">
-    <img src="/images/me.jpg" width="320" height="240" style="float:left;">
+    <img src="/images/me.jpg" width="320" height="240" style="float:left;margin:0 20px;">
 </a>
 </div>
 
