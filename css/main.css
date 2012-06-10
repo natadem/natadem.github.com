@@ -1,0 +1,101 @@
+/* Global reset */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    color: #666;
+    background: #DFE9D0 url('/images/bg-main.jpg') no-repeat center top;
+    font-family: "Helvetica Neue", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 20px;
+    width: 100%;
+}
+
+p {
+    margin: 1em;
+    line-height: 1.4em;
+    text-align: justify;
+}
+
+img {
+    margin: 0 20px;
+}
+
+hr {
+    margin: 20px 0;
+}
+
+/* Basic classes */
+
+.clear {
+    clear: both;
+}
+
+#wrapper {
+    width: 900px;
+    margin: 0 auto;
+    padding: 0 20px;
+    background-color: transparent;
+}
+
+#footer {
+    display: none;
+    height: 222px;
+    width: 100%;
+    background: #DFE9D0 url('/images/footer.png') no-repeat center bottom;
+}
+
+#header {
+    margin-top: 100px;
+}
+
+#main {
+    padding: 40px;
+}
+
+/* Secondary classes */
+
+#site-title, #site-description{
+    color: #FFF;
+    font-weight: bold;
+    text-shadow: #000 0 0 5px;
+    margin: 0;
+}
+
+#site-title {
+    font-size: 60px;
+}
+
+#site-description {
+    font-size: 22px;
+}
+
+#navigation {
+    height: 46px;
+    width: 100%;
+    margin-top: 70px;
+    background: transparent url('/images/bg-nav.jpg') no-repeat top left;
+}
+
+#navigation a, #navigation a:visited {
+    padding: 0 0 0 20px;
+    line-height: 46px;
+    color: #FFF;
+}
+
+.posts {
+    margin: 20px;
+}
